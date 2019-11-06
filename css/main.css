@@ -14,24 +14,26 @@ body {
 }
 
 .banner {
-  /* margin: 0;
+  margin: 0;
   position: relative;
   overflow: hidden;
-  max-height: 500px; */
+  max-height: 500px;
+
   /* align-items: center; */
   /* justify-content: center; */
 }
 
 .body {
-  /* margin: 0;
+  margin: 0;
   display: flex;
   position: absolute;
+  align-items: center;
   width: 100%;
-  max-width: 45em;
+  max-width: 35em;
   left: 50%;
-  /* bottom: 20%; */
-  /* top: 30%;
-  transform: translateX(-50%); */
+  bottom: 0;
+  top: 0;
+  transform: translateX(-50%);
 }
 
 img {
@@ -44,9 +46,7 @@ img {
 }
 
 .content {
-  /* text-align: left;
-  align-content: flex-end; */
-  /* max-width: 30%; */
+  padding-left: 1em;
 }
 
 .banner .img-flex {
@@ -56,11 +56,15 @@ img {
 h2 {
   margin: 0;
   font-family: Roboto-Condensed, sans-serif;
+  font-size: 2rem;
+  line-height: 1;
 }
 
 p {
   margin: 0;
   font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  padding-bottom: .5em;
 }
 
 a {
