@@ -16,7 +16,6 @@ body {
   position: relative;
   overflow: hidden;
   max-height: 500px;
-  max-width: 45em;
 }
 
 .banner {
@@ -24,6 +23,7 @@ body {
   display: flex;
   position: absolute;
   width: 100%;
+  max-width: 45em;
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
