@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: Roboto "Roboto-Condensed", san-serif;
 }
 
 *, *::before, *::after {
@@ -16,6 +17,8 @@ body {
   position: relative;
   overflow: hidden;
   max-height: 500px;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner {
@@ -25,7 +28,8 @@ body {
   width: 100%;
   max-width: 45em;
   left: 50%;
-  bottom: 0;
+  bottom: 20%;
+  top: 30%;
   transform: translateX(-50%);
 }
 
@@ -34,19 +38,31 @@ img {
 }
 
 .img-flex {
+  display: flex;
+  width: 100%
+}
 
+.content {
+  text-align: left;
+}
+
+.banner .img-flex {
+  margin: 0;
 }
 
 h2 {
   margin: 0;
+  font-family: "Roboto-Condensed", sans-serif;
 }
 
 p {
   margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 a {
   margin: 0;
+  font-family: "Roboto-Condensed", sans-serif;
 }
 
 .btn {
