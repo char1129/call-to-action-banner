@@ -14,12 +14,19 @@ body {
 .body {
   margin: 0;
   position: relative;
+  overflow: hidden;
+  max-height: 500px;
+  max-width: 45em;
 }
 
 .banner {
   margin: 0;
   display: flex;
   position: absolute;
+  width: 100%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
 }
 
 img {
@@ -27,8 +34,7 @@ img {
 }
 
 .img-flex {
-  display: block;
-  width: 100%;
+
 }
 
 h2 {
