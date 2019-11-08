@@ -143,6 +143,10 @@ body {
   max-height: 500px;
 }
 
+.banner .img-flex {
+  margin: 0;
+}
+
 .content {
   margin: 0;
   width: 100%;
