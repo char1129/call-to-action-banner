@@ -149,11 +149,13 @@ body {
 }
 
 .mecha {
-  display: block;
+  display: inline-block;
   width: 100%;
+  max-width: 15em;
   margin: 0 auto;
-  text-align: center;
+  vertical-align: middle;
 
+  /* text-align: center; */
   /* padding: 1rem 0rem 1rem 2rem;
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -162,9 +164,11 @@ body {
 }
 
 .content {
+  display: inline-block;
   margin: 0;
   width: 100%;
   padding: 0;
+  max-width: 30em;
 }
 
 .content h2 {
