@@ -165,11 +165,16 @@ body {
 }
 
 .content {
-  display: inline-block;
+  position: relative;
+  display: block;
   margin: 0;
   width: 100%;
   max-width: 35rem;
-  padding: 0 5rem 1rem 2rem;
+  padding: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .content h2 {
