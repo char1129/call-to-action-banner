@@ -135,7 +135,7 @@ body {
   width: 100%;
   max-width: 50em;
   transform: translateX(-50%);
-  left: 50%;
+  left: 55%;
   padding: 0;
   bottom: 1em;
   margin: 0;
@@ -151,7 +151,7 @@ body {
 .mecha {
   display: inline-block;
   width: 100%;
-  max-width: 30em;
+  max-width: 50em;
   margin: 0 auto;
   vertical-align: middle;
   left: 15%;
@@ -169,7 +169,7 @@ body {
   margin: 0;
   width: 100%;
   max-width: 30em;
-  padding: 0 3rem 1rem 2rem;
+  padding: 0 4rem 1rem 2rem;
 }
 
 .content h2 {
@@ -179,7 +179,7 @@ body {
   font-size: 3rem;
   text-align: left;
   margin: 0;
-  padding: 0 3rem 0 0;
+  padding: 0 1rem 0 0;
   line-height: 1.25;
 }
 
