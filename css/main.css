@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Roboto, "Roboto Condensed", sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 *, *::before, *::after {
@@ -29,19 +29,12 @@ body {
 
 .content {
   position: absolute;
-  left: 50%;
+  left: 46%;
   top: 50%;
   transform: translate(-50%, -50%);
   flex-direction: row;
-  /* top: 5%;
-  right: 0;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-  width: 100%;*/
+  width: 100%;
   max-width: 45em;
-  /* padding: 2em; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -51,35 +44,40 @@ body {
   margin: 0;
 }
 
-.mecha .text {
+/* .mecha .text {
   display: inline-block;
   margin: 0;
   vertical-align: middle;
-}
+} */
 
-.mecha {
+.img-div {
   width: 100%;
-  max-width: 35%;
+  margin: 0;
+}
+.mecha {
+  display: flex;
+  width: 70%;
+  margin: 0 0 1rem 2.5rem;
+  /* margin-right: -4rem; */
 }
 
 .text {
   width: 120%;
-  padding: 0;
+  padding: 0 0 .5rem;
 }
 
 .text h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
   margin: 0;
-  line-height: 1;
+  padding: 0 1rem 0 0;
+  line-height: 1.2;
 }
 
 .text p {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  max-width: 120%;
-
-  /* margin: 0 2em 1em 0; */
+  margin: .75rem 0;
 }
 
 .btn {
